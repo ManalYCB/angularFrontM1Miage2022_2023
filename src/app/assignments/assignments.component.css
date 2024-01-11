@@ -1,0 +1,24 @@
+table, tr, td, thead, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:10px;
+  }
+  
+  .rendu {
+    color: green;
+  }
+  
+  .nonRendu {
+    background-color:lightGrey;
+    color: red;
+    border:2px dashed yellow;
+  }
+  
+  .container {
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .ajouterBtn {
+    align-self: flex-end;
+  }
